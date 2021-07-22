@@ -1,0 +1,93 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "movie info",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                     "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                     "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                    "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                     "home"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "movieInfoIntent",
+                    "slots": [
+                        {
+                            "name": "movieName",
+                            "type": ""
+                        },
+                        {
+                            "name": "movie",
+                            "type": "MOVIE_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "मुझे {movie} मूवी के बारे में जानकारी दें"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "more",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "No"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "MOVIE_NAME",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Krrish 3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shingham"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dhoom"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Golmal"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+   "welcomeMessage":" Welcome to the Alexa Movie-Info. Please ask tell about movieName to know about movie information. ",
+   "responseMessage":" Do you want to know about other movie? ",
+   "requestMessage":" Please ask tell about moviename to know about movie information ",
+   "movieMessage":" and movie release year is ",
+   "movieNameMessage":" is a ",
+   "yesMessage":"Please ask tell about moviename to know about movie information",
+   "noMessage":"Enjoy your day and good bye!",
+   "inValidMessage":"Please provide valid movie name and try again.",
+   "fallbackMessage":"Sorry, I don't know that. You can say try saying help!",
+   "helpMessage":"You can say open movie information to me!",
+   "cancelMessage":"Goodbye"
+}
