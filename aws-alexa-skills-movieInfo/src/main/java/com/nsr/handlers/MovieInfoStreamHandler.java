@@ -20,7 +20,7 @@ public class MovieInfoStreamHandler extends SkillStreamHandler {
                         new NoIntentHandler())
                 .addRequestInterceptor(new LocalInterCeptor())
                 // Add your skill id below
-                .withSkillId("amzn1.ask.skill.c26eb37d-64cd-40ad-ba32-b4eb27ae003c")
+                .withSkillId("add your key")
                 .build();
     }
 
